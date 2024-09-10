@@ -43,6 +43,9 @@ function createTrack(){
         car.src = cars[i];
         car.alt = "car";
         track.appendChild(car);
+        let span = document.createElement("span");
+        span.className = "span";
+        track.appendChild(span); 
         race.appendChild(track);
         
         
